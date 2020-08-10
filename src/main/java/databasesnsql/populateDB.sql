@@ -84,9 +84,12 @@ VALUES (1, 1),
        (15, 10);
 INSERT INTO developers_projects(project_id, developer_id)
 VALUES (1, 1),
+       (1, 4),
        (2, 2),
        (3, 2),
+       (4, 2),
        (4, 3),
+       (4, 4),
        (5, 3),
        (6, 4),
        (7, 4),
@@ -94,8 +97,10 @@ VALUES (1, 1),
        (9, 2),
        (10, 2),
        (11, 2),
+       (12, 1),
        (12, 3),
        (13, 3),
+       (14, 2),
        (14, 4),
        (15, 4);
 INSERT INTO developers_skills(developer_id, skill_id, language_id)
