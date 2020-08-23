@@ -15,4 +15,3 @@ FROM developers_projects dp
 GROUP BY dp.project_id
 ) AS salary_sum
 );
-
